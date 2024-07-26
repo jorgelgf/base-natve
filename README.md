@@ -8,6 +8,8 @@ npx react-native init NomeDoSeuProjeto
 
 ## Dentro do projeto, deve-se criar o arquivo local.properties dentro do diretório android
 
+Inserir a instrução abaixo:
+
 ```
 sdk.dir=/home/jorge/Android/Sdk
 ```
@@ -30,11 +32,11 @@ opc a
 
 # Configurar ambiente JDK e permissões
 
-<a href="https://www.oracle.com/br/java/technologies/downloads/#java17">Link para instalação do JDK</a>
+<a href="https://www.oracle.com/br/java/technologies/downloads/#java17" target="_blank">Link para instalação do JDK</a>
 
 ## Criação das variáveis de ambiente
 
-Criar o arquiv abaixo:
+Criar o arquivo abaixo:
 
 ```
 ~/.zshrc
@@ -81,6 +83,10 @@ echo 'SUBSYSTEM=="usb", ATTR{idVendor}=="XXXX", MODE="0666", GROUP="plugdev"' | 
 
 ## verificando se o cell é reconhecido
 
-comando: adb devices
+comando:
+
+```
+adb devices
+```
 
 Após isto basta executar novamente a aplicação com o celular conectado ao computador.
