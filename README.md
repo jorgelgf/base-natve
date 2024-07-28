@@ -90,3 +90,7 @@ adb devices
 ```
 
 Após isto basta executar novamente a aplicação com o celular conectado ao computador.
+
+### Configuração Eslint e Prettier
+
+Referência <a href="https://github.com/devfraga/react-native-eslint-prettier">aqui </a>
