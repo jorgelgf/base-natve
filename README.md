@@ -88,6 +88,20 @@ comando:
 ```
 adb devices
 ```
+## Erro, não encontrado o dispositivo conectado
+Se faz necessário reiniciar o serviço adb
+```
+adb kill-server
+adb start-server
+```
+Depois utiliar o comando
+
+```
+cd android
+./gradlew clean
+cd ..
+yarn install
+```
 
 Após isto basta executar novamente a aplicação com o celular conectado ao computador.
 
